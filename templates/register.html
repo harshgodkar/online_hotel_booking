@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'register.css' %}">
+    <title>Register Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">Registration</div>
+        <form action="login">
+            <div class="card-details">
+                <div class="card-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" placeholder="Enter Your Name">
+                </div>
+                <!-- <div class="card-box">
+                    <span class="details">Username</span>
+                    <input type="text" placeholder="Enter Your Username">
+                </div> -->
+                <div class="card-box">
+                    <span class="details">Email</span>
+                    <input type="email" placeholder="Enter Your Email">
+                </div>
+                <div class="card-box">
+                    <span class="details">Phone Number</span>
+                    <input type="phone" placeholder="Enter Your Phone Number">
+                </div>
+                <div class="card-box">
+                    <span class="details">Password</span>
+                    <input type="password" placeholder="Enter Password">
+                </div>
+                <div class="card-box">
+                    <span class="details">Confirm Password</span>
+                    <input type="password" placeholder="Enter Confirm Password">
+                </div>
+            </div>
+            <div class="circal-form">
+                <span class="circal-title">Gender</span>
+                <div class="category">
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                    <input type="radio" name="gender">Other
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

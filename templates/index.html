@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'index.css' %}">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Candal&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <center>
+  <div class = "image">
+    <img src="{% static 'image/logo2.png' %}" alt="src">
+    <ul class="nav">
+      <li><a href="/">HOME</a></li>
+      <li><a href="register">REGISTER</a></li>
+      <li><a href="login">LOGIN</a></li>
+      <li><a href="#">IMAGE GALLERY</a></li>
+      <li><a href="/clients/">ABOUT</a></li>
+      <li><a href="contact">CONTACT</a></li>
+    </ul>
+      </div>
+    <h1>Luxury Hotel Welcomes you!</h1>
+    <p>This holiday season, make the most of every moment with us. Take pleasure in the perfect escape</p>
+
+    <button class = "submitbutton" type="submit">BOOK NOW</button>
+</center>
+
+</body>
+</html>
